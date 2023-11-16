@@ -5,19 +5,18 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <img src='Matti' className="App-Matti" alt="Matti" />
-        <img src='Hekla' className="App-Hekla" alt="Hekla" />
+        <img src='Matti.jpg' className="App-Matti" alt="Matti" />
+        <img src='Hekla.JPG' className="App-Hekla" alt="Hekla" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Spinny spinny blabla
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="http://www.leikjanet.is/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Gefðu mér locationið þitt!
         </a>
       </header>
     </div>
