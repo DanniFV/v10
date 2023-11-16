@@ -6,6 +6,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <img src='Matti' className="App-Matti" alt="Matti" />
+        <img src='Hekla' className="App-Hekla" alt="Hekla" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>

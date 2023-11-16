@@ -2,14 +2,26 @@
   text-align: center;
 }
 
-.App-logo {
+.App-Hekla {
   height: 40vmin;
   pointer-events: none;
 }
 
+.App-Matti {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .App-Hekla {
+    animation: App-Hekla-spin infinite 5s linear;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-Matti {
+    animation: App-Matti-spin infinite 20s linear;
   }
 }
 
@@ -28,7 +40,16 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+@keyframes App-Hekla-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes App-Matti-spin {
   from {
     transform: rotate(0deg);
   }
